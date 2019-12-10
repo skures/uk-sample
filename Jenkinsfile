@@ -1,6 +1,6 @@
 // Declarative //
 pipeline {
-    agent shared-agent
+    agent { 'shared-agent' } 
 
     stages {
         stage('Example') {
